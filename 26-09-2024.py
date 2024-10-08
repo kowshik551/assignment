@@ -1,4 +1,4 @@
-'''# !)Write a program that counts the number of even and odd numbers in a list.
+# !)Write a program that counts the number of even and odd numbers in a list.
 numbers=[1,2,3,4,5,6,7,8,9,10]
 even_count=0
 add_count=0
@@ -32,6 +32,7 @@ if number2>largest:
 if number3>largest:
     largest= number3
 print("The Largest Number: ", largest)
+print('------------------------------------------------------')
 
 # 4)Write a program to calculate the factorial of a number using a for loop.
 
@@ -41,6 +42,8 @@ for i in range(1, n+1):
     factorial *=i
 print(f"the factorial of{n} is {factorial}")
 
+print('----------------------------------------------------------')
+
 # 5)Write a program that takes a number as input and prints the sum of its digits. 
 
 number=input("Enter the value: ")
@@ -48,6 +51,8 @@ sum_of_digit=0
 for digit in number:
     sum_of_digit += int(digit)
 print("the sum of digits is: ",sum_of_digit)
+
+print('---------------------------------------------------------------')
 
 # 6)Write a program that generates a random number between 1 and 100, and asks the user to guess it. The program should give hints ("too high" or "too low") until the user guesses correctly.
 
@@ -65,6 +70,8 @@ while guess != n:
     else:
         print("Correct!")
 
+print('----------------------------------------------------------')
+
 # 7)write a program to check if a number is an Armstrong number
 n =int(input("enter a number:"))
 temp=n
@@ -79,6 +86,8 @@ if(sum==n):
     print("is a armstrong Number")
 else:
     print("is not an Armstrong number")
+
+print('----------------------------------------------------')
 
 # 8)write a program to check if a string is a palindrome.
 n=int(input("Enter a value: "))
@@ -95,6 +104,8 @@ if(sum==temp):
 else:
     print("is not a polindrome")
 
+print('----------------------------------------------')
+
 # 9)write a program that check if a number is prime.
 
 num =int(input("enter a number: "))
@@ -107,7 +118,9 @@ if num==1:
                 break
             else:
                 print(num, "num is a prime number")
-'''
+
+print('-----------------------------------------------------------------')
+
 # 10)Write a program that prints the numbers from 1 to 100. 
 #For multiples of three, print "Fizz" instead of the number, and for multiples of five, print "Buzz". 
 #For numbers which are multiples of both three and five, print "FizzBuzz".
