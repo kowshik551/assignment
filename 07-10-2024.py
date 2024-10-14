@@ -10,6 +10,9 @@ print(d)
 
 
 #2. Python Program to check if two Strings are Anagram. 
+#ANAGRAM:-
+# *Both strings shouid be of equal length.
+# *Both strings should have same characters in same order or different order.
 
 str1=input("Enter a string1: ")
 str2=input("Enter a string2: ")
@@ -23,7 +26,8 @@ else:
 
 
 #3. Python program to check a String is palindrome or not. 
-
+#palindrome:-
+#if any string after reversing if i get same string that is called palindrome string.
 sp=input("Enter a string: ")
 revstr=(sp[::-1])
 if revstr==sp:
@@ -32,7 +36,6 @@ else:
     print("string is not palindrome")
 
 #4. Python program to replace the string space with a given character. 
-
 s="python"
 c= "open source program"
 s1=" "
