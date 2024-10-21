@@ -1,3 +1,4 @@
+
 # Dictionary:
 # Dictionary representd by using {}.
 # Keys can not duplicated, but Values can be duplicated.

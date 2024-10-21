@@ -20,7 +20,7 @@ print(list3)
 
 l4_1=[1,2,3,4,5]
 l4_2=[5,6,7,8,9]
-result = set(l).intersection(set(l1))
+result = set(l4_1).intersection(set(l4_2))
 print(list(result))
 
 #Write a python program to remove specified column from the nestedlist?
@@ -199,15 +199,5 @@ s="skywavessoftwares"
 for letter in s:
     dict7[letter]=dict7.get(letter,0)+1
 print(dict7)
-
-
-
-
-
-
-
-
-
-
 
 
